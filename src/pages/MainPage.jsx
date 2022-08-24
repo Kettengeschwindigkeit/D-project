@@ -2,9 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Category } from "../components/Category";
 import { Items } from "../components/Items";
-import { data } from "../data/data";
 
-export function MainPage({ categories }) {
+export function MainPage({ categories, data }) {
 
     return (
         <>
